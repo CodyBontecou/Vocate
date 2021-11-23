@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' ws://localhost:*/socket.io/; script-src 'self' ws://localhost:*/socket.io/"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self' ws://localhost:*/socket.io/; script-src 'self' ws://localhost:*/socket.io/"
+    />
+    <title>Hello World!</title>
+    <script defer src="../dist/renderer.js"></script>
+  </head>
+
+  <body>
+    <h1>Digital Clock</h1>
+    <ul id="timers-container"></ul>
+  </body>
+</html>
